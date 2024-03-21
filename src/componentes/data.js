@@ -191,7 +191,8 @@ export const data = {
         titulo1:'Advocacia de Dívidas',
         texto:'Escritório de Advocacia especializado em questões relacionadas a dívidas e cobranças, oferecendo serviços nas áreas Tributária, Empresarial, Trabalhista, Civil, Família e Sucessões. Contamos com uma equipe enxuta de profissionais especializados que lidam pessoalmente com cada caso.',
     
-        titulo2:'VISITE-NOS',
+        titulo2:'Visite-nos',
+        titulo3:'Áreas de atuação',
         semana:'✔ Seg-Sex',
         endereco:'🗺️ Rua qualquer, 111 - São Paulo/SP',
         linkEndereço:'https://maps.app.goo.gl/H1g2oA887sn6UWko7',

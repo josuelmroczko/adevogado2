@@ -6,7 +6,7 @@ export default function Footer() {
         <>
             <StyleFooter>
                 <Footersection>
-                    <h1>{data.fotter.titulo1}</h1>
+                    <h2>{data.fotter.titulo1}</h2>
                     <p>{data.fotter.texto}</p>
                     <div className="redesSociaisFooter">
                         <ul>
@@ -30,7 +30,7 @@ export default function Footer() {
                 </Footersection>
 
                 <Footersection>
-                    <h2>Áreas de atuação</h2>
+                    <h2>{data.fotter.titulo3}</h2>
                     <ul>
                         <li>{data.fotter.texto1}</li>
                         <li>{data.fotter.texto2}</li>
