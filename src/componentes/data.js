@@ -40,7 +40,7 @@ export const data = {
         linkYoutube:'https://www.youtube.com/',
         whatsapp: '615156156',
         telefone:  ' ',
-        nomeTopo: 'Carlos Advogada e Cia',
+        nomeTopo: 'Carlos Advogado',
         textoPrincipalDaEmpresa: 'Advocacia Especializada em Resolução de Dívidas Bancárias.',
         texto: "Prestamos nossos serviços de forma totalmente transparente",
         botao: "Conheça nossos serviços",
