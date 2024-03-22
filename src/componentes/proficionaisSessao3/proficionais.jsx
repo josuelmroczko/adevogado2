@@ -26,7 +26,7 @@ export default function Proficionais() {
       </div>
       <ul>
         <li onClick={() => openModal(data.profissionais. profissional1)}>
-          <img src={data.profissionais. profissional1.foto} alt="" />
+          <img src={data.profissionais. profissional1.foto} alt="Profissional" />
           <div className="timeDescricao">
             <h3>{data.profissionais. profissional1.nome}</h3>
             <p>{data.profissionais. profissional1.especialidade}</p>
