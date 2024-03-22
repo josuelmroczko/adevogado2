@@ -10,10 +10,10 @@ export default function Footer() {
                     <p>{data.fotter.texto}</p>
                     <div className="redesSociaisFooter">
                         <ul>
-                            <li><a href={data.topoMenu.linkInstagran} target="blank"><img src={data.topoMenu.imagemInsta} alt="Instagram" /> </a></li>
-                            <li><a href={data.topoMenu.linkLinkedin} target="blank"><img src={data.topoMenu.imagemLinkedin} alt="LinkedIn" /></a></li>
-                            <li><a href={data.topoMenu.linkYoutube} target="blank"><img src={data.topoMenu.imagemYoutube} alt="YouTube" /></a></li>
-                            <li><a href={data.topoMenu.linkfacebook}  target="blank"><img src={data.topoMenu.imagemfacebook} alt="Facebook" /></a></li>
+                            <li><a href={data.topoMenu.linkInstagran} target="blank" rel='noopener noreferrer'><img src={data.topoMenu.imagemInsta} alt="Instagram" /> </a></li>
+                            <li><a href={data.topoMenu.linkLinkedin} target="blank" rel='noopener noreferrer'><img src={data.topoMenu.imagemLinkedin} alt="LinkedIn" /></a></li>
+                            <li><a href={data.topoMenu.linkYoutube} target="blank" rel='noopener noreferrer'><img src={data.topoMenu.imagemYoutube} alt="YouTube" /></a></li>
+                            <li><a href={data.topoMenu.linkfacebook}  target="blank" rel='noopener noreferrer'><img src={data.topoMenu.imagemfacebook} alt="Facebook" /></a></li>
                         </ul>
                     </div>
                 </Footersection>
@@ -22,7 +22,7 @@ export default function Footer() {
                     <h2>{data.fotter.titulo2}</h2>
                     <ul>
                         <li><a href="#" target="_blank">{data.fotter.semana}</a></li>
-                        <li><a href={data.fotter.linkEndereço} target="_blank">{data.fotter.endereco}</a></li>
+                        <li><a href={data.fotter.linkEndereço} target="_blank" rel='noopener noreferrer'>{data.fotter.endereco}</a></li>
                         <li><a href={"tel:" + data.fotter.telefone}>{data.fotter.telefone}</a></li>
                         <li><a href={"tel:" + data.fotter.celular}>{data.fotter.celular}</a></li>
                         <li><a href={"mailto:" + data.fotter.email}>{data.fotter.email}</a></li>

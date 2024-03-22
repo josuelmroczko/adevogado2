@@ -54,10 +54,10 @@ export default function ContatoConteudo() {
         <div className='redesSociais'>
 
           <ul>
-            <li><a href={data.topoMenu.linkInstagran} target="_blank" ><img src={data.topoMenu.imagemInsta} alt="imagemInsta" />        </a></li>
-            <li><a href={data.topoMenu.linkLinkedin} target="_blank"  ><img src={data.topoMenu.imagemLinkedin} alt="imagemLinkedin" /> </a></li>
-            <li><a href={data.topoMenu.linkYoutube} target="_blank"  ><img src={data.topoMenu.imagemYoutube} alt="imagemYoutube" />   </a></li>
-            <li><a href={data.topoMenu.linkfacebook} target="_blank"  ><img src={data.topoMenu.imagemfacebook} alt="imagemfacebook" /> </a></li>
+            <li><a href={data.topoMenu.linkInstagran} target="_blank" rel='noopener noreferrer' ><img src={data.topoMenu.imagemInsta} alt="imagemInsta" />        </a></li>
+            <li><a href={data.topoMenu.linkLinkedin} target="_blank" rel='noopener noreferrer'  ><img src={data.topoMenu.imagemLinkedin} alt="imagemLinkedin" /> </a></li>
+            <li><a href={data.topoMenu.linkYoutube} target="_blank"  rel='noopener noreferrer' ><img src={data.topoMenu.imagemYoutube} alt="imagemYoutube" />   </a></li>
+            <li><a href={data.topoMenu.linkfacebook} target="_blank" rel='noopener noreferrer'  ><img src={data.topoMenu.imagemfacebook} alt="imagemfacebook" /> </a></li>
           </ul>
         </div>
       </div>
