@@ -1,10 +1,10 @@
 import imagem1 from '../public/imagem/bannerPrincipal.jpg';
 import imagemWhts from '../public/imagem/whatsapp.png';
 
-import imagemfacebook from '../public/imagem/facebook.png';
-import imagemInsta from '../public/imagem/instagram.png';
-import imagemLinkedin from '../public/imagem/linkedin.png';
-import imagemYoutube from '../public/imagem/youtube.png';
+import imagemfacebook from '../public/imagem/facebook.svg';
+import imagemInsta from '../public/imagem/instagram.svg';
+import imagemLinkedin from '../public/imagem/linkedin.svg';
+import imagemYoutube from '../public/imagem/youtube.svg';
 
 import imagemTributario from '../public/imagem/tributario.png'
 import imagemtrabalhista from '../public/imagem/trabalhista.png'
